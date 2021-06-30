@@ -1,18 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nbenhado <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/29 18:19:01 by nbenhado          #+#    #+#             */
-/*   Updated: 2021/06/30 09:33:05 by nbenhado         ###   ########.fr       */
+/*   Created: 2021/06/30 09:34:27 by nbenhado          #+#    #+#             */
+/*   Updated: 2021/06/30 09:55:51 by nbenhado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_reverse_alphabet(void)
+void	ft_print_numbers(void)
 {
-	write(1, "zyxwvutsrqponmlkjihgfedcba", 26);
+	int	numb;
+
+	numb = '0';
+	while (numb <= '9')
+	{
+		write(1, &numb, 1);
+		numb += 1;
+	}
 }
