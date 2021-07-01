@@ -6,7 +6,7 @@
 /*   By: nbenhado <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 20:56:23 by nbenhado          #+#    #+#             */
-/*   Updated: 2021/07/01 11:09:50 by nbenhado         ###   ########.fr       */
+/*   Updated: 2021/07/01 13:40:20 by nbenhado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,4 @@ void	ft_putnbr(int nb)
 	{
 		ft_putchar(nb + 48);
 	}
-}
-
-int	main(void)
-{
-	ft_putnbr(-2147483649);
-	return (0);
 }

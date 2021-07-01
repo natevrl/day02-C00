@@ -6,7 +6,7 @@
 /*   By: nbenhado <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 09:56:47 by nbenhado          #+#    #+#             */
-/*   Updated: 2021/06/30 11:24:59 by nbenhado         ###   ########.fr       */
+/*   Updated: 2021/07/01 13:27:56 by nbenhado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,4 @@ void	ft_is_negative(int n)
 	{
 		write(1, "N", 1);
 	}
-}
-
-int	main(void)
-{
-	ft_is_negative(47);
-	return (0);
 }

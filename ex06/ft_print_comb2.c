@@ -6,7 +6,7 @@
 /*   By: nbenhado <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 16:56:48 by nbenhado          #+#    #+#             */
-/*   Updated: 2021/06/30 21:25:29 by nbenhado         ###   ########.fr       */
+/*   Updated: 2021/07/01 13:38:03 by nbenhado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,10 +40,4 @@ void	ft_print_comb2(void)
 			b = a + 1;
 		}
 	}
-}
-
-int	main(void)
-{
-	ft_print_comb2();
-	return (0);
 }
