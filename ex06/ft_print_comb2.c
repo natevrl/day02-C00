@@ -6,11 +6,10 @@
 /*   By: nbenhado <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 16:56:48 by nbenhado          #+#    #+#             */
-/*   Updated: 2021/07/01 13:38:03 by nbenhado         ###   ########.fr       */
+/*   Updated: 2021/07/01 16:21:27 by nbenhado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <unistd.h>
 
 void	ft_putchar(char c)
@@ -32,7 +31,11 @@ void	ft_print_comb2(void)
 		ft_putchar(' ');
 		ft_putchar(b / 10 + 48);
 		ft_putchar(b % 10 + 48);
-		ft_putchar(',');
+		if (a != 98 || b != 99)
+		{
+			ft_putchar(',');
+			ft_putchar(' ');
+		}
 		b++;
 		if (b > 99)
 		{
